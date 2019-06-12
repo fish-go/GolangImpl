@@ -1,4 +1,4 @@
-package types
+package array
 
 /**
 声明一个数组，数组的长度是参与到类型检查的
@@ -26,7 +26,7 @@ func sumRangeLoop(arr [5]int) int {
 	return sum
 }
 
-// 修改数组中的元素的值，但是它是应用传递的，修改对外部不可见
+// 修改数组中的元素的值，但是它是值传递的，修改对外部不可见
 func changeArrayValue(arr [3]int){
 	arr[0] = arr[0] * arr[0]
 }

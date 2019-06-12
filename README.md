@@ -9,11 +9,13 @@ go是一个个函数和type组成的
 
 go文件的格式
 
-type
+- type
 
-var
+- var
 
-func
+- func
+  - 静态方法
+  - 成员方法
 
 go file中不能有运算
 

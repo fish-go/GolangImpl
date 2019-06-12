@@ -1,4 +1,4 @@
-package types
+package array
 
 import (
 	"testing"
